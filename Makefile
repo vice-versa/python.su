@@ -1,6 +1,9 @@
 all: test
 
 test: 
+	python manage.py test
+
+nose-test: 
 	django-nosetests.py
 
 coverage:
